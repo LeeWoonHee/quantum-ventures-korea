@@ -1,0 +1,280 @@
+
+//suit font style
+@font-face {
+  font-family: 'suit';
+  font-style: normal;
+  font-weight: 300;
+  src: url('~@/assets/fonts/suitLight.eot') format('embedded-opentype'),
+  url('~@/assets/fonts/suitLight.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'suit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('~@/assets/fonts/suitRegular.eot') format('embedded-opentype'),
+  url('~@/assets/fonts/suitRegular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'suit';
+  font-style: normal;
+  font-weight: 500;
+  src: url('~@/assets/fonts/suitMedium.eot') format('embedded-opentype'),
+  url('~@/assets/fonts/suitMedium.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'suit';
+  font-style: normal;
+  font-weight: 600;
+  src: url('~@/assets/fonts/suitSemiBold.eot') format('embedded-opentype'),
+  url('~@/assets/fonts/suitSemiBold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'suit';
+  font-style: normal;
+  font-weight: 700;
+  src: url('~@/assets/fonts/suitBold.eot') format('embedded-opentype'),
+  url('~@/assets/fonts/suitBold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'suit';
+  font-style: normal;
+  font-weight: 800;
+  src: url('~@/assets/fonts/suitExtraBold.eot') format('embedded-opentype'),
+  url('~@/assets/fonts/suitExtraBold.ttf') format('truetype')
+}
+
+//YDIYG520 font style
+
+@font-face {
+  font-family: 'YDIYG';
+  font-style: normal;
+  font-weight: 300;
+  src: url('~@/assets/fonts/YDIYG520_0.eot') format('embedded-opentype'),
+  url('~@/assets/fonts/YDIYG520_0.ttf') format('truetype'),
+  url('~@/assets/fonts/YDIYG520_0.otf') format('opentype'),
+  url('~@/assets/fonts/YDIYG520_0.woff') format('woff'),
+  url('~@/assets/fonts/YDIYG520_0.woff2') format('woff2')
+
+}
+
+@font-face {
+  font-family: 'YDIYG';
+  font-style: normal;
+  font-weight: 400;
+  src: url('~@/assets/fonts/YDIYG530_0.eot') format('embedded-opentype'),
+  url('~@/assets/fonts/YDIYG530_0.ttf') format('truetype'),
+  url('~@/assets/fonts/YDIYG530_0.otf') format('opentype'),
+  url('~@/assets/fonts/YDIYG530_0.woff') format('woff'),
+  url('~@/assets/fonts/YDIYG530_0.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'YDIYG';
+  font-style: normal;
+  font-weight: 600;
+  src: url('~@/assets/fonts/YDIYG540_0.eot') format('embedded-opentype'),
+  url('~@/assets/fonts/YDIYG540_0.ttf') format('truetype'),
+  url('~@/assets/fonts/YDIYG540_0.otf') format('opentype'),
+  url('~@/assets/fonts/YDIYG540_0.woff') format('woff'),
+  url('~@/assets/fonts/YDIYG540_0.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'YDIYG';
+  font-style: normal;
+  font-weight: 700;
+  src: url('~@/assets/fonts/YDIYG550_0.eot') format('embedded-opentype'),
+  url('~@/assets/fonts/YDIYG550_0.ttf') format('truetype'),
+  url('~@/assets/fonts/YDIYG550_0.otf') format('opentype'),
+  url('~@/assets/fonts/YDIYG550_0.woff') format('woff'),
+  url('~@/assets/fonts/YDIYG550_0.woff2') format('woff2')
+}
+
+
+* {
+  font-family: 'suit', sans-serif;
+}
+
+
+.blex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  justify-items: center;
+}
+
+.blex-right {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
+  justify-items: flex-end;
+}
+
+.blex-left {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  justify-items: flex-start;
+}
+
+.blex-top {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: center;
+  justify-items: center;
+}
+
+.blex-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: flex-end;
+  align-content: flex-end;
+  justify-content: center;
+  justify-items: center;
+}
+
+.blex-x-between {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.blex-x-around {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.blex-x-evenly {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
+.blex-y-between {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+  justify-items: center;
+}
+
+.blex-y-around {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+  justify-items: center;
+}
+
+.blex-y-evenly {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: center;
+  align-content: space-evenly;
+  justify-content: center;
+  justify-items: center;
+}
+
+.blex-between {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.blex-around {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: center;
+  align-content: space-around;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.blex-evenly {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: center;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+#app{
+  width:100vw;
+  height:calc(var(--vh) * 100 );
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.vs__actions{
+  display:none !important;
+}
+.vs__search{
+  font-size:12px !important;
+  margin:0 !important;
+  padding: 10px 14px !important;
+}
+.vs__dropdown-menu{
+  font-size:12px !important;
+}
+.ve-table-header-th {
+  background: #f2f3f9 !important;
+}
+table{
+  table-layout: fixed;
+}
+
+
